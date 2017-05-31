@@ -29,7 +29,7 @@ public class firstJenkinsTest {
         log.info("navigated to website");
         WebElement element = driver.findElement(By.xpath("//*[@id=\"home\"]/div/footer/div/div[2]/p"));
         log.info("Checking element");
-        assertThat(element.getText()).contains("Eurofins Digital Testing 2015");
+        assertThat(element.getText()).contains("Eurofins Digital Testing 2014");
         log.info("Test OK!");
 
         driver.close();
